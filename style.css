@@ -1,0 +1,252 @@
+.App {
+    /*text-align: center;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /*background: linear-gradient(to right, #dbc59a 0%, #ffc3c3 100%);*/
+    background-color: #e7e7e7;
+    overflow: auto;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.App-logo {
+    height: 1vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.item {
+    text-decoration: none;
+    color: #faf1f1;
+    padding: 3vh;
+    font-size: calc(15px + 1vmin);
+}
+
+.item-2 {
+    text-align: right;
+    text-decoration: none;
+    color: #faf1f1;
+    font-size: calc(15px + 1vmin);
+    margin-left: 75%;
+    margin-right: 3vh;
+}
+
+.item:hover {
+    color: #e1adac;
+}
+
+.navigation-sub {
+    background-color: #181818;
+    padding: 3vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.portfolio-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item-1 {
+    padding: 20% 10% 20% 10%;
+    margin: 2.5% 20%;
+    background: linear-gradient(to right, #dbc59a 0%, #ffc3c3 100%);
+    border-radius: 10%;
+    text-align: center;
+}
+
+.portfolio-item-2 {
+    padding: 20% 10% 20% 10%;
+    margin: 2.5% 20%;
+    background: linear-gradient(to right, #dbc59a 0%, #ffc3c3 100%);
+    border-radius: 10%;
+    text-align: center;
+}
+
+.portfolio-item-3 {
+    padding: 20% 10% 20% 10%;
+    margin: 2.5% 20%;
+    background: linear-gradient(to right, #dbc59a 0%, #ffc3c3 100%);
+    border-radius: 10%;
+    text-align: center;
+}
+
+.portfolio-item-1:hover {
+    box-shadow: 4px 4px 4px #909090;
+}
+
+.portfolio-item-2:hover {
+    box-shadow: 4px 4px 4px #909090;
+}
+
+.portfolio-item-3:hover {
+    box-shadow: 4px 4px 4px #909090;
+}
+
+.about-container-1 {
+    width: 30%;
+    height: 100%;
+}
+
+.about-container-2 {
+    width: 50%;
+    margin-left: 7%;
+}
+
+.profile-pic {
+    width: 105%;
+    height: 105%;
+    border-radius: 5%;
+}
+
+.about-container {
+    margin: 2.5% 10% 2.5% 18%;
+    display: flex;
+    flex-direction: row;
+}
+
+.descriptive-p {
+    text-align: left;
+    line-height: 150%;
+}
+
+.descriptive-h2 {
+    margin-top: 0;
+}
+
+mark {
+    background-color: rgba(225, 173, 172, 0.5);
+    /*padding: 0.01rem;*/
+    height: 1%;
+}
+
+.about-icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.about-icons a {
+    margin-right: 7.5%;
+    padding: 2%;
+    background-color: #e1adac;
+}
+
+.resume-p {
+    margin-left: 27.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-container-1 {
+    width: 100vw;
+    height: 92vh;
+    background-color: #ffc3c3;
+}
+
+.portfolio-header {
+    margin-top: 7.5vh;
+}
+
+.back-to-top {
+    background-color: #ffc3c3;
+    padding: 0.001% 100%;
+}
+
+.back-to-top h1 {
+    background-color: #ffc3c3;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#portfolio {
+    margin-bottom: 7.5vh;
+}
+
+#about {
+    margin-bottom: 10vh;
+}
+
+.main-h1 {
+    font-size: calc(50px + 1vmin);
+    margin-top: 0;
+    text-align: left;
+}
+
+.main-p {
+    font-size: calc(15px + 1vmin);
+    text-align: left;
+}
+
+.main-container-2 {
+    position: absolute;
+    margin-left: 2.5vw;
+    bottom: 7.5%;
+    left: 2.5%;
+}
+
+.main-container-1 {
+    background: linear-gradient(-45deg, #ffc3c3, #dbc59a, #ffc3ec, #f5c795);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
