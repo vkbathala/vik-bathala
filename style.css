@@ -79,6 +79,9 @@ body::-webkit-scrollbar {
 
 h1 {
     text-align: center;
+    color: #909090;
+    font-family: "Open Sans";
+    font-size: large;
 }
 
 p {
